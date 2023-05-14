@@ -65,7 +65,6 @@ def game(play = 0, stop = 0):
                     if(logic(matriz) == 1):
                         print('Player 1 Win!')
                         break
-                        break
                 else:
                     print('This local is used. Please, choose a other local.')
                     game(play)
@@ -80,7 +79,6 @@ def game(play = 0, stop = 0):
                     print('-----')
                     if(logic(matriz) == 2):
                         print('Player 2 Win!')
-                        break
                         break
                 else:
                     print('This local is used. Please, choose a other local')
